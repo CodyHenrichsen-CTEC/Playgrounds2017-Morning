@@ -23,4 +23,34 @@ evenLessSimpleMethod(count: 4,
 
 
 
-
+public func calculateDays(first firstDay :Int, secondDay :Int) -> Int
+{
+    let answer = secondDay - firstDay
+    
+    return answer
+}
+calculateDays(first: 4, secondDay:5)
+internal func name(friendName homeName :String) -> Void
+{
+    let info = "At home my name is " + homeName
+    print(info)
+}
+name(friendName: "Cody")
+var sam = (342.90)
+sam.squareRoot()
+sam.round()
+print(Int.min)
+var guess = 453
+if (guess > 500)
+{
+    print("wahoo")
+}
+else if(guess == 65)
+{
+    print("not likely")
+}
+while (guess > 0)
+{
+    print("hahahahahhaha \(guess)")
+    guess -= 1
+}
